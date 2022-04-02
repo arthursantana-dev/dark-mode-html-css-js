@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+:root {
+	--primary-color: rgb(148, 141, 255);
+	--secondary-color: rgb(0, 0, 0);
+}
+
+.dark-mode {
+	--primary-color: rgb(15, 8, 54);
+	--secondary-color: rgb(194, 194, 194);
+}
+
+* {
+	color: var(--secondary-color);
+	transition: 0.2s;
+}
+
+button#dark-mode-toggle {
+	background-color: initial;
+	border: initial;
+	display: flex;
+	align-items: center;
+}
+
+main {
+	width: 80vw;
+	margin: auto;
+}
+
+
+
+body {
+	background-color: var(--primary-color);
+	font-family: 'Lato', sans-serif;
+}
+
+.icon {
+	width: 20px;
+	fill: var(--secondary-color);
+}
+
+.white {
+	filter: invert(100%);
+}
