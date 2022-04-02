@@ -6,9 +6,9 @@ toggleDarkMode = () => {
 	body.classList.toggle('dark-mode')
 
 	if (body.classList.contains('dark-mode')) {
-		darkModeToggleButtonIcon.src = './assets/img/sun-solid.svg'
+		darkModeToggleButtonIcon.src = '../assets/img/sun-solid.svg'
 	} else {
-		darkModeToggleButtonIcon.src = './assets/img/moon-solid.svg'
+		darkModeToggleButtonIcon.src = '../assets/img/moon-solid.svg'
 	}
 	darkModeToggleButtonIcon.classList.toggle('white')
 }
