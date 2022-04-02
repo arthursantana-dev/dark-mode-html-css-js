@@ -4,7 +4,6 @@ const body = document.querySelector('body')
 
 toggleDarkMode = () => {
 	body.classList.toggle('dark-mode')
-
 	if (body.classList.contains('dark-mode')) {
 		darkModeToggleButtonIcon.src = '../assets/img/sun-solid.svg'
 	} else {
